@@ -6,7 +6,7 @@
   --color3: 79, 163, 191;
   --color4: 224, 226, 240;  
   --gradient-angle: 40deg;
-  --roboto-mono: "Roboto Mono", monoserif;
+  --roboto-mono: "Roboto Mono", monospace;
   --roboto-serif: "Roboto Serif", serif;
   --roboto: "Roboto", sans-serif;
   --overlay-color: rgba(0, 0, 0, 45%);
