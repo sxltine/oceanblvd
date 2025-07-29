@@ -155,7 +155,7 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   border-bottom: 3px solid rgba(var(--color2), 0.7);
-  padding-bottom: 2px;
+  padding-bottom: 1px;
 }
 
 .give-my-all-minimb b{
