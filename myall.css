@@ -155,7 +155,6 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   border-bottom: 3px solid rgba(var(--color2), 0.7);
-  display: inline-block;
   padding-bottom: 2px;
 }
 
