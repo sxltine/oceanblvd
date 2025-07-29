@@ -10,32 +10,52 @@
   --roboto-serif: "Roboto Serif", serif;
   --roboto: "Roboto", sans-serif;
   --overlay-color: rgba(0, 0, 0, 45%);
+  --width600: 600px;
+  --width500: 500px;
+  --width450: 450px;
+  --width350: 350px;
   background-color: #191919;
   margin-top: 50px;
 }
 
 .give-my-all-bg {
-  position: relative;
-  /*background: rgba(var(--color1), 0.2);*/
-  color: rgba(var(--color4), 0.8);
-  text-align: justify;
-  overflow: hidden;
-  width: 500px;
+  width: var(--width450);
   margin: 0 auto;
   padding: 4rem;
 }
 
-
 .give-my-all-textbg {
   background: var(--overlay-color);
-  padding: 3rem;
+  color: rgba(var(--color4), 0.7);
+  text-align: justify;
+  padding: 4rem;
   font-family: var(--roboto-mono);
   font-weight: 400;
   font-size: 12px;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
   line-height: 190%;
-  text-align: justify;
-  border-left: 3px solid rgba(var(--color1), 0.6);
+  border-left: 2px solid rgba(var(--color1), 0.6);
+}
+
+.give-my-all-textbg h1{
+  font-size: 25px;
+  text-align: center;
+  text-decoration: 4px solid rgba(var(--color2), 0.7) underline;
+}
+
+.give-my-all-textbg h2{
+  font-size: 20px;
+  text-align: center;
+  margin: 0.25rem;
+}
+
+.give-my-all-textbg h3{
+  font-size: 10px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0.25rem;
 }
 
 .give-my-all-textbg b{
@@ -45,10 +65,12 @@
 }
 
 .give-my-all-textbg i{
-  font-weight: 700;
-  color: rgba(var(--color2),0.9);
-  font-size: 12.5px;
-  text-decoration: underline;
+  font-family: var(--roboto);
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 9.5px;
+  letter-spacing: 1.5px;
+  color: rgba(var(--color2),0.9); 
 }
 
 .give-my-all-textbg s{
@@ -63,19 +85,101 @@
 }
 
 .give-my-all-tag {
-  padding: 0.5rem;
+  padding: 0.25rem;
   font-family: var(--roboto);
   font-weight: 700;
   font-size: 9px;
   letter-spacing: 1px;
-  line-height: 190%;
   text-align: justify;
   text-transform: uppercase;
+}
+
+.give-my-all-img-row-bg {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;  /*space between grid cells */
+  max-width: 420px; /* optional: controls total width */
+  margin: auto;
+  /*border: 1px solid blue;*/
+  justify-items: center;
+}
+
+.give-my-all-div {
+  /*border: 1px solid red;*/
+  padding: 1rem;
+}
+
+.give-my-all-div img{
+  width: 60px;
+  height: 60px;
 }
 
 .give-my-all-tag a{
   color: rgba(var(--color4), 0.8);
   text-decoration: none;
+}
+
+.give-my-all-tag a:hover{
+  color: rgba(var(--color4), 0.9);
+  text-decoration: none;
+}
+
+.give-my-all-minimb-bg {
+  width: var(--width350);
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.give-my-all-minimb {
+  background: var(--overlay-color);
+  color: rgba(var(--color4), 0.7);
+  justify-items: center;
+  padding: 2rem;
+}
+
+.give-my-all-minimb-txt {
+  padding: 1rem;
+  font-family: var(--roboto-mono);
+  font-size: 9.5px;
+  font-weight: 600;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 180%;
+}
+
+.give-my-all-minimb h3{
+  font-family: var(--roboto);
+  font-size: 9px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: 3px solid rgba(var(--color2), 0.7) underline;
+}
+
+.give-my-all-minimb b{
+  color: rgba(var(--color3),0.8);
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.give-my-all-img-row-minimb {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;  /*space between grid cells */
+  margin: auto;
+  padding: 1rem;
+  justify-items: center;
+}
+
+.give-my-all-divmb {
+
+}
+
+.give-my-all-divmb img{
+  width: 50px;
+  height: 50px;
+  display: block;
 }
 
 .give-my-all-tag a:hover{
