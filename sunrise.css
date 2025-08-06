@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --color1: 127, 131, 176;
+  --color2: 176, 101, 162;
+  --color3: 79, 163, 191;
+  --color4: 224, 226, 240;  
+  --roboto-mono: "Roboto Mono", monoserif;
+  --roboto: "Roboto", sans-serif;
+  --width450: 450px;
+  background-color: #191919;
+  margin: 50px;
+}
+
+.sunrise-bg {
+  background-color: rgba(var(--color2),0.2);
+  width: var(--width450);
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.sunrise-txt {
+  color: rgba(var(--color4),0.7);
+  font-family: var(--roboto-mono);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 190%;
+  text-align: justify;
+  padding: 2rem;
+  text-transform: lowercase;
+}
+
+.sunrise-txt ul{
+  padding: 1rem;
+  margin: 1rem;
+  list-style-type: "";
+}
+
+.sunrise-txt li{
+  padding: 0;
+  margin: 0;
+}
+
+.sunrise-txt i{
+  color: rgba(var(--color2),0.9);
+}
+
+.sunrise-txt b{
+  font-size:12.5px;
+  font-weight: 700;
+  color: rgba(var(--color3),0.7);
+}
+
+.sunrise-txt h2{
+  font-family: var(--roboto);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  color: rgba(var(--color1),0.8);
+  text-transform: uppercase;
+  padding: 1rem;
+  margin: 0;
+}
+
+.sunrise-txt star{
+  color: rgba(var(--color1),0.9);
+  font-size: 12px;
+  padding: 0.25rem;
+}
