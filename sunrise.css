@@ -7,14 +7,14 @@
   --color4: 224, 226, 240;  
   --roboto-mono: "Roboto Mono", monoserif;
   --roboto: "Roboto", sans-serif;
-  --width450: 450px;
+  --width450: 350px;
   background-color: #191919;
   margin: 50px;
 }
 
 .sunrise-bg {
   background-color: rgba(var(--color2),0.2);
-  width: var(--width450);
+  width: var(--width350);
   padding: 1rem;
   margin: 0 auto;
 }
